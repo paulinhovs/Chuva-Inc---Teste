@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <title>Teste-Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        
+        * {
+            margin: 0px;
+        }
+
+        #azul {
+            background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+            height: 68px;
+        }
+
+        #vermelho {
+            min-height: 68px;
+            background: #FDF1EB;
+        }
+
+
+        #preto {
+            min-height: 1382px; 
+        }
+
+        #amarelo {
+            min-height: 220px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        #verde {
+            background-color: green;
+            height: 100px;
+            width: 100%;
+        }
+
+        #vermelho2 {
+            height: 68px;
+        }
+
+        #vermelho4 {
+            height: 68px;
+        }
+
+        #header-text1 {
+          font-size: 90%; color: #725c5c; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; margin: 0px; margin-left: 36px;
+        }
+
+        #header-text2 {
+            font-size: 130%; color: #725c5c; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; margin: 0px; margin-left: 36px;"
+        }
+
+        #header-text3 {
+            font-size: 80%; color: #725c5c; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; margin: 0px; margin-left: 36px;
+        }
+
+        #button-language {
+            margin-top: 17px;
+        }
+
+        .text-language-button {
+                font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-size: 14px;
+                width: 42px;
+                height: 18px;
+                line-height: 17px;
+                margin-top: 4px;
+                margin-left: 2px;
+                color: #333333;
+        }
+
+        .text-md-rigth {
+            margin-left: 125px;
+            font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #333333;
+            margin-top: 17px;
+            height: 18px;
+            width: 72px;
+        }
+
+        @media (min-width: 300px) and (max-width: 500px) {
+           
+            #vermelho2 {
+                display: flex;
+                flex-direction: column;
+                height: 200px;
+            }
+            
+            #vermelho3 {
+                font-size: 13px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            
+            #vermelho4 {
+                height: 100px;
+                flex: 1;
+            }
+
+             #header-text1 {
+                margin-top: 15px;
+                margin-left: 2px;
+            }
+
+            #header-text2, #header-text3 {
+                margin-left: 2px;
+            }
+
+            #amarelo {
+                height: 100%;
+            }
+          
+        }
+
+    </style>
+
+
+</head>
+<body>
+   <div class="container-fluid">
+        <div class="row">
+        <div id="azul" class="col-sm-2">
+            <h1 class="h1-slaca19" style="color: #ffffff; font-size: 30px; font-weight: bold; font-style: normal; display: flex; align-items: center; justify-content: center; margin: 0; padding: 0; text-align: center; margin-top: 4%;">SLACA 2019</h1>
+        </div>
+        <div id="vermelho" class="col-sm-10">
+            <div id="vermelho2" class="row">
+                <div id="vermelho3" class="col-sm-8" style="height: 68px;">
+                    <h1 id="header-text1">Anais do Simpósio Latino Americano de Ciências de Alimentos</h1>
+                    <h2 id="header-text2">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
+                    <h3 id="header-text3">ISSN: 1234-5678</h3>
+                </div>
+                <div id="vermelho4" class="col-sm-4" style="display: flex; flex-direction: row;">
+                    <button id="button-language" type="button" class="btn btn-outline-light" style="height: 35px; width: 97px; display: flex; flex-direction: row; margin-top: 11px; border: 1px solid #CCCCCC; box-sizing: border-box; border-radius: 3px; padding: 0px;">
+                        <img src="images/language image.png" class="language-image" style="margin-bottom: 5px;">
+                        <h1 class="text-language-button">PT, BR</h1>
+                        <div class="dropdown" style="border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #333333;cursor: pointer;margin-top: 11px;margin-left: 5px;"></div>
+                    </button>
+                    <p class="text-md-rigth">Bem vindo!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <div id="amarelo" class="col-sm-2">
+            <div class="row">
+            <img src="images/dewey 4.png" class="img-fluid" alt="Imagem responsiva">
+            <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Apresentação</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Comitês</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Autores</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Eixos Tematicos</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Trabalhos</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            <div class="p-2 bd-highlight" style="font-family: 'Quicksand', Arial, Helvetica, sans-serif; font-style: normal; font-weight: 500; font-size: 15px; line-height: 19px; color: #725c5c;">Contato</div>
+            <div style="height: 2px; background-color: #e7e7e7; width: 100%; margin: 0px;"></div>
+            </div>
+            </div>
+        </div>
+
+        <div id="preto" class="col-sm-10"></div>
+        </div>
+
+        <div class="row">
+        <div id="verde" class="col-sm-12"></div>
+        </div> 
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
