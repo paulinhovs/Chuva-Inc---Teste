@@ -2,6 +2,9 @@
     margin: 0px;
 }
 
+/* TAMANHO BASE - 1360px (width) */
+
+
 #azul {
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     height: 68px;
@@ -117,10 +120,21 @@
         margin-left: -90px;
     }
 
+
+
+#main-linha1 {
+    width: 100%;
+}
+
+#main-space1 {
+    display: flex; 
+    flex: 3;
+}
+
 #main-text1 {
     height: 54px;
     left: 0px;
-    top: 0px;
+    margin-top: 6px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -128,6 +142,11 @@
     line-height: 25px;
     letter-spacing: 0.05em;
     color: #ED7839;
+}
+
+#main-space1-2 {
+    display: flex; 
+    flex: 1;
 }
 
 .download-button {
@@ -139,8 +158,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-    margin-left: 50px;
-    
+    margin-left: 240px;
 }
 
 .download-button-img {
@@ -167,9 +185,88 @@
     margin-left: 6px;
 }
 
+.favorite-button {
+    cursor: pointer;
+    background: #ED7839;
+    border-radius: 4px;
+    width: 43px;
+    height: 31px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.favorite-img {
+    width: 25px;
+    height: 25px;
+    margin-left: 9px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.doi-button {
+    top: 20px;
+    background: #ED7839;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 43px;
+    margin-left: 5px;
+    height: 31px;
+    margin-top: 10px;
+}
+
+.doi-button-img {
+        width: 19px;
+        height: 19px;
+        margin-top: 5px;
+        margin-left: 12px;
+}
+
+.citacao {
+    height: 25px;
+    left: 0px;
+    margin-right: 1%;
+    top: 43px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-bottom: 5px;
+}
+
+.main-linha2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#banner {
+    min-width: 784px;
+    min-height: 439px;
+    background-image: url('images/sobreposition1.PNG');
+}
+
+.video-overlay {
+    position: absolute;
+    width: 783px;
+    height: 439px;
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+}
+
+#image-video-sobreposition {
+    display: none;
+}
+
+
+
+/* MOBILE - IphoneX */
 
 @media (min-width: 300px) and (max-width: 500px) {
-   
+
     #vermelho {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     }
@@ -222,4 +319,59 @@
         border: 1px solid #F5F5F5;
         box-sizing: border-box;
     }
+
+    #main-space1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-text1 {
+        display: flex;
+        min-height: 16px;
+        font-size: 20px;
+        
+    }
+
+    #main-space1-2 {
+        margin-top: 60px;
+       
+    }
+
+    .download-button {
+        margin-left: 15%;
+        margin-bottom: 2%;
+    }
+
+    .citacao {
+        margin-right: 70px;
+    }
+
+    .main-linha2 {
+        height: auto;
+        height: auto;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #image-video-sobreposition {
+        display: inline-block;
+    }
+
 }
+
+/* MEDIA - MONITOR LARGO */
+
+@media (min-width: 1800px) and (max-width: 2200px) {
+
+    .citacao {
+        margin-right: 320px;
+    }
+
+    .download-button {
+        margin-left: 280px;
+    }
+
+}
+
