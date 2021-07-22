@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
-    <title>Teste-Bootstrap</title>
+    <title>Chuva Inc</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -65,6 +65,7 @@
 
         #button-language {
             margin-top: 17px;
+            height: 36px; width: 97px; display: flex; flex-direction: row; margin-top: 11px; border: 1px solid #CCCCCC; box-sizing: border-box; border-radius: 3px; padding: 0px;
         }
 
         .text-language-button {
@@ -74,9 +75,18 @@
                 width: 42px;
                 height: 18px;
                 line-height: 17px;
-                margin-top: 4px;
+                margin-top: 7px;
                 margin-left: 2px;
                 color: #333333;
+        }
+
+        .language-image {
+            margin-bottom: 5px;
+            margin-top: 3px;
+        }
+
+        .dropdown {
+            border-left: 5px solid transparent;border-right: 6px solid transparent;border-top: 5px solid #333333;cursor: pointer;margin-top: 13px;margin-left: 5px; margin-right: 1px;
         }
 
         .text-md-rigth {
@@ -91,6 +101,30 @@
             height: 18px;
             width: 72px;
         }
+
+        .text-md-rigth2 {
+            margin-left: 90px;
+            font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #333333;
+            height: 18px;
+            width: 72px;
+            margin-left: 13px;
+            margin-top: -18px;
+        }
+
+        .img-fluid2 {
+                border: 1px solid #F5F5F5;
+                box-sizing: border-box;
+                border-radius: 50%;
+                height: 30px;
+                width: 30px;
+                margin-top: 19px;
+                margin-left: -90px;
+            }
 
         @media (min-width: 300px) and (max-width: 500px) {
            
@@ -125,7 +159,23 @@
             #amarelo {
                 height: 100%;
             }
-          
+            
+            .text-language-button {
+                margin-top: 5px;
+            }
+            .language-image {
+                margin-top: 2px;
+                margin-left: 2px;
+            }
+            .dropdown {
+                margin-left: 7px;
+            }
+
+            .img-fluid2 {
+                background: #F5F5F5;
+                border: 1px solid #F5F5F5;
+                box-sizing: border-box;
+            }
         }
 
     </style>
@@ -146,12 +196,16 @@
                     <h3 id="header-text3">ISSN: 1234-5678</h3>
                 </div>
                 <div id="vermelho4" class="col-sm-4" style="display: flex; flex-direction: row;">
-                    <button id="button-language" type="button" class="btn btn-outline-light" style="height: 35px; width: 97px; display: flex; flex-direction: row; margin-top: 11px; border: 1px solid #CCCCCC; box-sizing: border-box; border-radius: 3px; padding: 0px;">
-                        <img src="images/language image.png" class="language-image" style="margin-bottom: 5px;">
+                    <button id="button-language" type="button" class="btn btn-outline-light">
+                        <img src="images/language image.png" class="language-image">
                         <h1 class="text-language-button">PT, BR</h1>
-                        <div class="dropdown" style="border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #333333;cursor: pointer;margin-top: 11px;margin-left: 5px;"></div>
+                        <div class="dropdown"></div>
                     </button>
+                    <div class="login-space" style="display: flex; flex-direction: column; width: 300px;">
                     <p class="text-md-rigth">Bem vindo!</p>
+                    <p class="text-md-rigth2">alguem12@galoascience.com</p>
+                    </div>
+                    <img src="images/image.png" class="img-fluid2" alt="Imagem responsiva">
                 </div>
             </div>
         </div>
