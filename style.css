@@ -46,7 +46,7 @@
 }
 
 #header-text1 {
-  font-size: 90%; color: #725c5c; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; margin: 0px; margin-left: 36px;
+ font-size: 90%; color: #725c5c; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; margin: 0px; margin-left: 36px; margin-top: 5px;
 }
 
 #header-text2 {
@@ -142,6 +142,8 @@
     line-height: 25px;
     letter-spacing: 0.05em;
     color: #ED7839;
+    margin-top: 20px;
+    margin-left: ;
 }
 
 #main-space1-2 {
@@ -261,7 +263,55 @@
     display: none;
 }
 
+#text1-banner {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    height: 54px;
+    margin-left: 32px;
+    margin-top: 35px;
+}
 
+#img-video-icon {
+    margin-left: 35px;
+    margin-top: 200px;
+    margin-right: 3px;
+    box-sizing: border-box;
+    width: 98px;
+    height: 96px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.text-video-beatriz {
+    height: 30px;
+    right: 473px;
+    margin-top: -80px;
+    margin-left: 136px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.text-video-fca {
+    height: 27px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 136px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
 
 /* MOBILE - IphoneX */
 
@@ -340,6 +390,10 @@
     .download-button {
         margin-left: 15%;
         margin-bottom: 2%;
+    }
+
+    .favorite-img {
+        margin-top: 4px;
     }
 
     .citacao {
