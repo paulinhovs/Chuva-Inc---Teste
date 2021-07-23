@@ -314,9 +314,9 @@
 }
 
 .detalhes-do-trabalho {
-    width: 242px;
-    height: 439px;
-    margin-top: 5px;
+    width: 220px;
+    height: 300px;
+    margin-top: -1px;
     margin-left: 60px;
     display: flex;
     flex-direction: column;
@@ -326,9 +326,8 @@
 }
 
 .painel-header-detalhes {
-    width: 242px;
+    width: 220px;
     height: 45px;
-
     background: #FDF1EB;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
@@ -336,7 +335,6 @@
 }
 
 .painel-header-text {
-    
     width: 212px;
     margin-top: 8px;
     height: 25px;
@@ -359,9 +357,27 @@
     line-height: 120%;
     letter-spacing: 0.02em;
     width: 212px;
-    height: 364px;
     color: #5C5C5C;
+    margin-left: 10px;
+    margin-top: 5px;
+    overflow-y: auto;
+    height: 250px;
+    }   
+    ::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 3px;
+        background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+        border-radius: 5px;
+    }
+   
 }
+
 
 .autores-front  {
     font-size: 14px;
@@ -375,6 +391,8 @@
     line-height: 18px;
     letter-spacing: 2%;
 }
+
+
 
 /* MOBILE - IphoneX */
 
@@ -406,6 +424,11 @@
      #header-text1 {
         margin-top: 15px;
         margin-left: 2px;
+        font-size: 15px;
+    }
+
+    #header-text3 {
+        font-size: 11px;
     }
 
     #header-text2, #header-text3 {
@@ -481,7 +504,9 @@
         display: flex;
         flex-direction: column;
     }
-
+    .detalhes-do-trabalho {
+        height: 200px;
+    }
 }
 
 /* MEDIA - MONITOR LARGO */
