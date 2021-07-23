@@ -313,6 +313,69 @@
     color: #FFFFFF;
 }
 
+.detalhes-do-trabalho {
+    width: 242px;
+    height: 439px;
+    margin-top: 5px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.painel-header-detalhes {
+    width: 242px;
+    height: 45px;
+
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.painel-header-text {
+    
+    width: 212px;
+    margin-top: 8px;
+    height: 25px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+}
+
+.detalhes-trabalho-text {
+    flex-direction: column;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    width: 212px;
+    height: 364px;
+    color: #5C5C5C;
+}
+
+.autores-front  {
+    font-size: 14px;
+}
+
+.linha-autores {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2%;
+}
+
 /* MOBILE - IphoneX */
 
 @media (min-width: 300px) and (max-width: 500px) {
@@ -411,6 +474,12 @@
 
     #image-video-sobreposition {
         display: inline-block;
+        margin-top: 15px;
+    }
+
+    .main-linha2 {
+        display: flex;
+        flex-direction: column;
     }
 
 }
