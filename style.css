@@ -429,7 +429,7 @@
 }
 
 #more {
-    display: none;
+    display:none;
 }
 
 .teste1 {
@@ -492,7 +492,6 @@
 }
 
 .space-criar-topico-geral {
-    border: 1px solid black;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -545,6 +544,39 @@
     text-align: center;
     color: #595959;
 }
+
+#botao-topico-space {
+    margin-top: 35px;
+    
+}
+
+.botao-topico {
+    margin-left: 450px;
+    width: 133px;
+    height: 32px;
+    background-color: red;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#divisoria {
+    width: 1027px;
+    margin-left: 16px;
+    margin-top: -13px;
+    height: 2px;
+    left: 16px;
+    border: 1px solid #E7E7E7;
+}
+
 
 /* MOBILE - IphoneX */
 
@@ -701,6 +733,14 @@
 
     .sabia-que-o-maior {
         font-size: 12px;
+    }
+
+    #divisoria {
+        width: 90%;
+    }
+
+    .botao-topico {
+        margin-left: 30%;
     }
 }
 
