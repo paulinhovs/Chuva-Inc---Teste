@@ -395,9 +395,11 @@
 
 .resumo {
     width: 1058px;
-    height: 189px;
-    border: 1px solid red;
+    min-height: 189px;
     margin-top: 30px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
 
 .painel-header-resumo {
@@ -426,7 +428,123 @@
     font-weight: bold;
 }
 
+#more {
+    display: none;
+}
 
+.teste1 {
+    margin-left: 15px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    margin-bottom: 15px;
+    
+}
+
+
+#myBtn {
+    border: none;
+    border-radius: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color: #ED7839;
+}
+
+.topicos {
+    min-height: 621px;
+    width: 1058px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.painel-header-topicos {
+    width: 1055px;
+    height: 45px;
+    left: 0px;
+    margin-top: 1px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+
+#topicos-header-text {
+    width: 1028px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.space-criar-topico-geral {
+    border: 1px solid black;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.compartilhe-ideias { 
+    right: 29.51%;
+    bottom: 57.74%;
+    margin-top: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+    margin-left: 311px;
+}
+
+.img-topicos-space {
+    margin-left: 402px;
+    margin-top: 27px;
+}
+
+#img-topicos1 {
+    width: 50.26px;
+    height: 48.94px;
+    margin-right: 40px;
+}
+
+#img-topicos2 {
+    width: 50.26px;
+    height: 48.94px;
+    margin-right: 40px;
+}
+
+#img-topicos3 {
+    width: 50.26px;
+    height: 48.94px;
+}
+
+.sabia-que-o-maior {
+    left: 20.44%;
+    right: 20.44%;
+    margin-top: 32px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
 
 /* MOBILE - IphoneX */
 
@@ -435,6 +553,8 @@
     #vermelho {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     }
+    
+    
 
     #vermelho2 {
         display: flex;
@@ -543,17 +663,44 @@
     }
 
     .resumo {
-        min-width: 50px;
-        max-width: 100px;
-        min-height: 60px;
-        max-height: 100px;
+        min-height: 300px;
+        width: 100%;
     }
 
     .painel-header-resumo {
-        min-width: 50px;
-        max-width: 100px;
-        min-height: 60px;
-        max-height: 100px;
+       height: 50px;
+       width: 100%;
+    }
+
+    #resumo-header-text {
+        width: 100%;
+    }
+
+    .topicos {
+        min-height: 500px;
+        width: 100%;
+    }
+
+    .painel-header-topicos {
+       height: 50px;
+       width: 100%;
+    }
+
+    #topicos-header-text {
+        width: 100%;
+    }
+
+    .compartilhe-ideias {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    .img-topicos-space {
+        margin-left: 35px;
+    }
+
+    .sabia-que-o-maior {
+        font-size: 12px;
     }
 }
 
@@ -570,4 +717,3 @@
     }
 
 }
-
