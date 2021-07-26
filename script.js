@@ -13,3 +13,13 @@ function myFunction() {
       moreText.style.display = "inline";
   }
 }
+
+function toggleDiv() {
+  if(document.getElementById("exemplo1").style.display == 'none') {
+    document.getElementById("exemplo1").style.display = 'block';
+    document.getElementById("exemplo2").style.display = 'none';
+  } else {
+    document.getElementById("exemplo1").style.display = 'none';
+    document.getElementById("exemplo2").style.display = 'block';
+  }
+}

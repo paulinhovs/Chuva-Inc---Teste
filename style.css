@@ -744,6 +744,50 @@
     margin-top: 10px;
 }
 
+.topico-enviado-space {
+    background-color: red;
+    min-height: 448px;
+}
+
+#topico-enviado-text1 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+    height: 22px;
+    margin-left: 324px;
+    margin-top: 15px;
+}
+
+#topico-enviado-text2 {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    height: 20px;
+    margin-left: 113px;
+    margin-top: 18px;
+}
+
+#topico-enviado-text3 {
+        text-decoration: underline;
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 137.5%;
+        color: #F48F44;
+        margin-top: 29px;
+        margin-left: 413px;
+}
+
+
+
 /* MOBILE - IphoneX */
 
 @media (min-width: 300px) and (max-width: 500px) {
@@ -752,8 +796,6 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     }
     
-    
-
     #vermelho2 {
         display: flex;
         flex-direction: column;

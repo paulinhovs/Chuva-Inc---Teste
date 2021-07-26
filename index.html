@@ -137,6 +137,8 @@
                 <div class="painel-header-topicos"><p id="topicos-header-text">Discussões</p></div>
                     <div class="space-criar-topico-geral">
                         <div class="space-criar-topico1">
+                            <div id="exemplo1">
+                        <div class="space-criar-topico2">
                             <h1 class="compartilhe-ideias">Compartilhe suas ideias ou dúvidas com os autores!</h1>
                                 <div class="img-topicos-space">
                                     <img id="img-topicos1" src="images/icone1.png" class="img-fluid" alt="Imagem responsiva">
@@ -145,32 +147,42 @@
                                 </div>
                             <h1 class="sabia-que-o-maior">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? <br> Deixe seus questionamentos ou sugestões para o autor!</h1>
                             <div id="botao-topico-space">
-                                <button class="botao-topico"> <span style="font-size: 20px;">+ </span>Criar tópico</button>
+                                <button class="botao-topico" onclick="toggleDiv()">+ Criar Tópico</button>
                                 <div id="divisoria"></div>
                             </div>
+                        </div>
+                            </div>
+                                 <div id="exemplo2" style="display: none;">
+                                        <div class="form-topico">
+                                            <form>
+                                                <div class="form-group">
+                                                    <h1 class="form-text1">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h1>
+                                                    <label id="titulo-form1" for="exampleInputEmail1">Assunto</label>
+                                                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Defina um tópico sucinto para notificar os autores...">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label id="titulo-form2" for="exampleInputConteudo">Conteudo</label>
+                                                    <input id="input-space-text" type="textarea" class="form-control">
+                                                        <div class="button-space-form">
+                                                            <div class="area-before-button">
+                                                                <img id="img-bsharp" src="images/b-sharp.PNG" class="img-fluid" alt="Imagem responsiva">
+                                                                <img id="img-italico" src="images/b-italico.PNG" class="img-fluid" alt="Imagem responsiva">
+                                                                <button id="button-form" type="submit" class="btn btn-primary">Enviar</button>
+                                                            </div>
+                                                        </div> 
+                                                </div>
+                                            </form>
+                                    </div>
+                                </div>
+                                    <div class="exemplo3">
+                                        <div class="topico-enviado-space">
+                                            <h1 id="topico-enviado-text1">Seu tópico foi enviado com sucesso! :D</h1>
+                                            <h2 id="topico-enviado-text2">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h2>
+                                            <h3 id="topico-enviado-text3">Descubra outros trabalhos!</h3>
+                                        </div>
+                                    </div>
                          </div>
-                    <div class="form-topico">
-                         <form>
-                            <div class="form-group">
-                                <h1 class="form-text1">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h1>
-                              <label id="titulo-form1" for="exampleInputEmail1">Assunto</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Defina um tópico sucinto para notificar os autores...">
-                            </div>
-                            <div class="form-group">
-                              <label id="titulo-form2" for="exampleInputConteudo">Conteudo</label>
-                              <input id="input-space-text" type="textarea" class="form-control">
-                        <div class="button-space-form">
-                            <div class="area-before-button">
-                                <img id="img-bsharp" src="images/b-sharp.PNG" class="img-fluid" alt="Imagem responsiva">
-                                <img id="img-italico" src="images/b-italico.PNG" class="img-fluid" alt="Imagem responsiva">
-                                <button id="button-form" type="submit" class="btn btn-primary">Enviar</button>
-                            </div>
-                            
-                        </div>  
-                            </div>
-                            
-                          </form>
-                    </div>
+                         
                                 <div class="topico-space-respostas">
                                     <div class="topico-space-respostas1">
                                         <h1 id="topico-respostas1">Assunto da pergunta aparece aqui</h1>
@@ -199,6 +211,7 @@
                                 </div>
                         </div>
             </div>
+
         <div class="row">
         <div id="verde" class="col-sm-12"></div>
        </div> 
