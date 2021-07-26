@@ -635,6 +635,7 @@
 #image-favorite1 {
     margin-left: 24px;
     margin-top: -9px;
+    cursor: pointer;
 }
 
 #image-favorite2 {
@@ -656,6 +657,7 @@
     font-size: 14px;
     line-height: 19px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 #favorite-text2 {
@@ -663,9 +665,83 @@
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 350;
+    cursor: pointer;
     font-size: 14px;
     line-height: 19px;
     margin-left: 15px;
+}
+
+.form-topico {
+    margin-left: 24px;
+}
+
+.form-text1 {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    height: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+#titulo-form1 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+    height: 19px;
+}
+
+#titulo-form2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+    height: 19px;
+}
+
+.area-before-button {
+    background: #EAF1F2;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+}
+
+#input-space-text {
+    height: 113px;
+}
+
+#button-form {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    height: 29px;
+    width: 205px;
+    border: none;
+    margin-left: 780px;
+}
+
+#img-bsharp {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 29px;
+}
+
+#img-italico {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 29px;  
+}
+
+.form-topico {
+    margin-top: 10px;
 }
 
 /* MOBILE - IphoneX */
@@ -799,7 +875,7 @@
     }
 
     .topicos {
-        min-height: 750px;
+        min-height: 1000px;
         width: 100%;
     }
 
@@ -851,6 +927,19 @@
 
     .favorite-space {
         margin-top: 45px;
+    }
+
+    #button-form {
+        margin-left: 80px;
+    }
+    
+    #exampleInputEmail1 {
+        font-size: 11px;
+    }
+
+    .form-topico {
+        margin-top: 20px;
+        margin-left: 2px;
     }
 }
 
