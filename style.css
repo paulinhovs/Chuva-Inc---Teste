@@ -1539,6 +1539,11 @@ footer {
         width: 100%;
     }
 
+    #resumo-header-text {
+        width: 120px;
+        
+    }
+
     .topicos {
         width: 99%;
     }
@@ -1605,6 +1610,73 @@ footer {
 
     #topico-respostas3 {
         width: 40%;
+    }
+
+    .topico-space-respostas {
+        width: 95%;
+        height: 180px;
+    }
+
+    #topico-respostas2 {
+        width: 80%;
+    }
+
+    #topico-respostas3 {
+        width: 90%;
+    }
+
+    .favorite-space {
+        margin-top: 35px;
+    }
+
+    #exemplo4 {
+        height: auto;
+        width: 95%;
+    }
+
+    #ex4-text3 {
+        min-height: 70px;
+        width: 90%;
+    }
+
+    .ex4-text2-space {
+        min-height: 160px;
+    }
+
+    #ex4-text2-text1 {
+        width: 60%;
+    }
+
+    #ex4-text2-text2 {
+        margin-left: 10%;
+    }
+
+    #ex4-text2-text4 {
+            width: 90%;
+    }
+
+    .ex4-text4-space {
+        min-height: 220px;
+    }
+
+    #ex4-text4-text1 {
+        width: 60%;
+    }
+
+    #ex4-text4-text2 {
+        margin-left: 10%;
+    }
+
+    #ex4-text5-text1 {
+        width: 60%;
+    }
+
+    #ex4-text5-text2 {
+        margin-left: 10%;
+    }
+
+    #divisoria-main-footer {
+        width: 90%;
     }
 
 }
