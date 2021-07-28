@@ -43,3 +43,15 @@ function toggleDiv3() {
     document.getElementById("exemplo1").style.display = 'block';
   }
 }
+
+function toggleDiv4() {
+  if(document.getElementById ("exemplo4").style.display == 'none') {
+    document.getElementById("exemplo4").style.display = 'block';
+    document.getElementById("exemplo5").style.display = 'none';
+  } else {
+    document.getElementById("exemplo5").style.display = 'none';
+    document.getElementById("exemplo4").style.display = 'block';
+    document.getElementById("exemplo4").style.display = 'none';
+    document.getElementById("exemplo5").style.display = 'block';
+  }
+}
