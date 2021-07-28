@@ -1445,18 +1445,166 @@ footer {
     
 }
 
-}
 
-/* MEDIA - MONITOR LARGO */
+/* MEDIA - IPAD */
 
-@media (min-width: 1800px) and (max-width: 2200px) {
+@media (min-width: 760px) and (max-width: 800px) {
 
-    .citacao {
-        margin-right: 320px;
+    #azul {
+        height: 120px;
+    }
+
+    .h1-slaca19 {
+        font-size: 27px;
+        margin-top: 30px;
+    }
+
+    #vermelho {
+        min-height: 120px;
+    }
+
+    #header-text1 {
+        font-size: 17px;
+    }
+
+    #header-text3 {
+        font-size: 15px;
+    }
+
+    #vermelho4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #button-language {
+        margin-top: 20px;
+    }
+
+    .login-space {
+        margin-top: 60px;
+        margin-left: -160px;
+    }
+
+    .img-fluid2 {
+        margin-top: 75px;
+    }
+
+    #main-text1 {
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    #main-space1-2 {
+        width: 30%;
+        margin-top: 5px;
+        
     }
 
     .download-button {
-        margin-left: 280px;
+        margin-left: 12px;
+    }
+
+    .main-linha2 {
+        min-height: 500px;
+        width: 600px; 
+    }
+
+    #image-video-sobreposition {
+        display: block;
+        height: 300px;
+        width: 395px;
+
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #text1-banner {
+        font-size: 20px;
+    }
+
+    .detalhes-do-trabalho {
+        position: absolute;
+        margin-left: 400px;
+    }
+
+    .resumo {
+        margin-top: -170px;
+        width: 99%;
+        
+    }
+
+    .painel-header-resumo {
+        width: 100%;
+    }
+
+    .topicos {
+        width: 99%;
+    }
+
+    .painel-header-topicos {
+        width: 100%;
+    }
+    
+    #topicos-header-text {
+        width: 90%;
+    }
+
+    .compartilhe-ideias {
+        margin-left: 75px;
+    }
+
+    .img-topicos-space {
+        margin-left: 170px;
+    }
+
+    .botao-topico {
+        margin-left: 250px;
+    }
+
+    #divisoria {
+        width: 97%;
+    }
+
+    #button-form {
+        margin-left: 270px;
+    }
+
+    #topico-enviado-text1 {
+        margin-left: 125px;
+    }
+
+    #topico-enviado-text2 {
+        margin-left: 20px;
+    }
+
+    #topico-enviado-text3 {
+        margin-left: 190px;
+    }
+
+    #topico-enviado-button {
+            margin-left: 190px;
+    }
+
+    .topico-enviado-sobreposition {
+        width: 75%;
+    }
+
+    #check-topico-enviado {
+            margin-left: 270px;
+    }
+
+    #text1-topico-enviado {
+        margin-left: 160px;
+    }
+
+    #text2-topico-enviado {
+        margin-left: 250px;
+    }
+
+    #topico-respostas3 {
+        width: 40%;
     }
 
 }
