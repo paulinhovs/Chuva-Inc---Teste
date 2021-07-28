@@ -241,6 +241,14 @@
     flex-direction: row;
 }
 
+#menu-ativado {
+    position: absolute;
+    margin-top: 150px;
+    height: 33px;
+    width: 5px;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
 #banner {
     min-width: 784px;
     min-height: 439px;
@@ -1677,6 +1685,11 @@ footer {
 
     #divisoria-main-footer {
         width: 90%;
+    }
+
+    #menu-ativado {
+        margin-top: 165px;
+        height: 37px;
     }
 
 }
